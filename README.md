@@ -10,7 +10,6 @@ Checkout `src/dataloader.rei` for the full API interface
 # Usage
 
 ```reason
-module Future = FutureLoader.Future;
 
 let userLoader = Dataloader.make(userIds => getUsersByIds(userIds));
 
