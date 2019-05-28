@@ -1,0 +1,21 @@
+{
+  "name": "reason-dataloader",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^5.0.2"
+  },
+  "dependencies": {
+    "@glennsl/bs-jest": "^0.4.8",
+    "reason-future": "^2.4.0"
+  }
+}
